@@ -1,0 +1,139 @@
+.container {
+    position: relative;
+    color: rgb(0, 0, 0);
+    width:100%;
+    height: 50%;
+    
+  }
+  .container img{
+    width: 100%;
+    position: relative;
+  }
+  .top-left {
+
+    transform: translateY(-105px);
+    background-color: rgba(202, 186, 186, 0.514);
+    font-size: 40px;
+    margin-left: 50px;
+    width:max-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 90%;
+    opacity: 90%;
+
+    
+  }
+
+  .top-left h1{
+    font-size: 30px;
+    padding: 10px 15px 10px 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+ .header-one{
+  margin-top: -10vh;
+  margin-right: 50px;
+
+
+ }
+
+  .title-one{
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 100;
+    
+
+  }
+  .title-two{
+    margin-left:60px;
+    font-size: 40px;
+    font-weight: 900;
+   
+  }
+
+  .header-one p {
+   font-size: 20px;
+   margin-left: 60px;
+   font-style: oblique;
+   
+  }
+
+  
+/* this is section ten */
+
+.section-ten{
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+
+}
+.section-ten-c1{ 
+  display: flex;
+  width: 50%;
+  height: 250px;
+}
+
+.c1-child1{
+  width: 35%;
+  height: 100%;
+
+}
+.c1-child1 img{
+  width: 100%;
+  height: 100%;
+}
+
+.c1-child2{
+  width: 65%;
+  height: 100%;
+}
+
+.c1-child2 h1{
+  color: green;
+  margin-left: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.c1-child2 p{
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.section-ten-c2{
+  display: flex;
+  width: 50%;
+  height: 250px;
+}
+
+.c2-child1{
+  width: 35%;
+  height: 100%;
+}
+
+.c2-child2{
+  width: 65%;
+  height: 100%;
+}
+.c2-child1 img{
+  width: 100%;
+  height: 100%;
+}
+.c2-child2 h1{
+  color: green;
+  margin-left: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.c2-child2 p{
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+   

@@ -1,0 +1,196 @@
+.admin-navbar{
+  display: flex;
+  
+  z-index: 1500;
+    width: 100%;
+    height: 70px;
+    background-color: green;
+}
+
+.dasboad-admin-logo{
+  width: 30%;
+  background-color: blue;
+}
+
+.welcome-dashboad{
+  width: 40%;
+  background-color: rgb(20, 206, 181);
+}
+.dashboad-logout{
+  width: 30%;
+  background-color: orangered;
+}
+
+
+.main-profile-content{
+    display: flex;
+}
+
+.dashboad-profile{
+    width:20%;
+    height:600px;
+    background-color: rgb(24, 249, 88);
+    
+}
+
+.dashboad-profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboad-content{
+ width: 80%;
+ height: 600px;
+
+}
+.links-profile ul li {
+    list-style: none;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.links-profile ul li a{
+   text-decoration: none;
+   font-size:25px;
+   margin-left: 15px;
+}
+
+
+
+
+.dashboad-content {
+    width: 100%;
+    overflow-x: auto;
+    border: 20px; /* Enable horizontal scrolling if needed */
+  }
+
+  .dashboad-content th{
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .dashboad-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+  }
+  
+  .dashboad-content th,td {
+    padding: 8px 10px 8px 10px;
+    font-size: 18px;
+    text-align: left;
+    border: 2px solid orange;/* Add border to cells */
+  }
+  
+  .dashboad-content th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    
+  }
+  
+  .dashboad-content tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  .dashboad-content tbody tr{
+    height: 30px;
+  }
+
+
+.icon-side-nav{
+  padding-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .admin-dasboad-navbar{
+    width: 100%;
+    height: 70px;
+    background-color: green;
+}
+
+.main-admin-profile {
+    width: 100%;
+    height: 800px;
+    background-color: #a7a4aa;
+
+}
+.admin-profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-color:rgba(14, 189, 14, 0.856);
+    justify-content: space-between;
+}
+.profile-image{
+    width: 20%;
+    height: 800px;
+    background-color: orange;
+}
+
+.remaining-links li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.dashboad-name img{
+    width: 60%;
+    height: 60%;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-result{
+    width: 80%;
+    height: 800px;
+    background-color: aqua;
+} */
+
+
+
+
+  
+  /* Add styling for table, th, and td */
+  /* .table-result table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-result th, .table-result td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Add background color for table header */
+  /* .table-result th {
+    background-color: #f2f2f2;
+  } */
+   

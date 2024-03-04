@@ -1,0 +1,50 @@
+// import React from "react"
+// import Navbar from "../navbar/navbar";
+// import Footer from "../footer/Footer";
+// import { Box } from "@mui/material";
+// import "../login/Login.css";
+// import { Link } from "react-router-dom";
+
+// function Login(){
+//     return(
+//         <div>
+//         <Navbar/>
+//         <Box height={70}></Box>
+        
+//         <div class="main-section-login">
+//         <div class="main-login-section">
+//           <center>
+//             <img src="./testimonial-1.jpg" alt=""/>
+//           <h1>Login</h1>
+//           </center>
+//           <form class="form-fields-login" action="">
+//             <div class="form-fields">
+//                 <div class="form-field">
+//                     <label for="">Email</label><br/>
+//                     <input type="email" name="" id=""/>
+//                 </div>
+//                 <div class="form-field">
+//                     <label for="">Password</label><br/>
+//                     <input type="password" name="" id=""/>
+//                 </div>
+//                 <div class="form-field-check">
+//                     <input type="checkbox" name="" id=""/>
+//                     <label for="">Remember me</label>
+//                 </div>
+//                 <div class="form-field">
+//                     <button type="submit">Login</button>
+//                 </div>
+//                 <div class="form-field">
+//                     <p>Don't have an account ? &nbsp;&nbsp;&nbsp;&nbsp; <Link to="/register">Create One</Link></p>
+//                 </div>
+//             </div>
+//           </form>
+//         </div>
+//    </div>
+
+
+//         <Footer/>
+//         </div>
+//     )
+// }
+// export default Login;

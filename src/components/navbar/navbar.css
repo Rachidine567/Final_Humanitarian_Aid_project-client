@@ -1,0 +1,170 @@
+.main-container {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1500;
+    background-color: #008000;
+    display: flex;
+
+}
+.left-side-container {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.left-side-container span{
+    color: white;
+
+
+
+}
+
+.center-side-container {
+    width: 50% ;
+    display: flex;
+    justify-content:end;
+    gap: 50px;
+    align-items: center;
+    }
+
+    .center-side-container li{
+        list-style: none;
+        transition: all ease 0.5s;
+        
+    }
+     .center-side-container li:hover{
+        list-style: none;
+        transform: translateX(-8px);
+        
+    }
+
+    .center-side-container li a:hover{
+        color:#ff9500;
+       
+
+    }
+
+
+.center-side-container li a{
+    color: white;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 900;
+} 
+
+.right-side-container {
+    display: flex;
+    margin-left: 20px;
+    width: 10%;
+    justify-content: start;
+    gap: 20px;
+    text-align: center;
+}
+ .right-side-container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  align-items: center;
+  background-color: red;
+
+
+}
+ .button-donate {
+  color: white;
+  border-style: none;
+  padding: 0px 30px 0px 30px;
+
+  text-decoration: none;
+}
+.logo-name img{
+    height:60px;
+    width: 300px;
+    padding-left: 20px;
+
+}
+   
+    
+
+
+.icon-container{
+    height: 70px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color:white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/* navbar.css */
+
+/* Styles for the search input container */
+.search-input-container {
+    position: absolute;
+    top: 100%; /* Position it below the icon */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%);
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Grey border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 12px; /* Padding inside the input container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  /* Style for the search input */
+  .search-input-container input[type="text"] {
+    width: 200px; /* Adjust width as needed */
+    padding: 8px; /* Padding inside the input */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+  }
+  
+  /* Styles for the icon container */
+  .icon-container {
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-left: 10px; /* Add some space between the icon and other elements */
+  }
+/* navbar.css */
+
+/* Styles for the search input container */
+.search-input-container {
+    display: flex;
+  position: absolute;
+  top: 100%; /* Position it below the icon */
+  left: 85%; /* Center it horizontally */
+  transform: translateX(-50%);
+  background-color: #fff; /* White background */
+  border: 1px solid #ccc; /* Grey border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 12px; /* Padding inside the input container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  z-index: 1000;
+  font-size: 18px; /* Ensure it's above other elements */
+}
+
+/* Style for the search input */
+.search-input-container input[type="text"] {
+  width: 200px; /* Adjust width as needed */
+  padding: 8px; /* Padding inside the input */
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+}
+
+/* Styles for the icon container */
+.icon-container {
+  cursor: pointer; /* Show pointer cursor on hover */
+  margin-left: 10px; /* Add some space between the icon and other elements */
+}
+.search-btn-icon{
+    background-color: #ccc;
+    border: 1px solid blue;
+    outline: none;
+    border-radius:50%;
+    padding: 5px;
+    border-style: none;
+}

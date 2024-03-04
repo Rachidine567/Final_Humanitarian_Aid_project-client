@@ -1,0 +1,193 @@
+.body-section{
+    margin: 0px;
+    padding: 0px;
+}
+.container-home-main-section img{
+    width: 100%;
+    height: 800px;
+    opacity: 65%;
+  
+}
+
+.text-overlay {
+position: relative;
+z-index: 100;
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 100;  
+transform: translateY(-700px); 
+color: white; 
+margin: 50px;
+padding: 20px;
+
+}
+
+.upper {
+    text-transform: uppercase;
+     font-size: 50px;
+    transform: translateY(-100px);
+    color: orange;
+}
+.small-letter{
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.button-container{
+    position: relative;
+    z-index: 800;
+    margin-top: -115vh;
+    margin-left: 70px;
+
+}
+
+.button1{
+    height: 50px;
+    width: 140px;
+    background-color: green;
+    color: white;
+     margin-right:25px;
+    font-size: 25px;
+    border-style: none;
+    padding: 0px,20px,0px,20px
+}
+
+.button2{
+    
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    color: white;
+     margin-right:25px;
+    font-size: 24px;
+    border-style: none;
+    padding: 0px,20px,0px,20px
+}
+.btn-text{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.section-two{
+    margin-top: 100vh;
+}
+
+.feature-appeal {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: -45vh;
+   
+   
+
+}
+.feature-one {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+/*section-three css below*/
+.section-three{
+   display: flex;
+   justify-content: space-evenly;
+   padding:15px;
+   margin-left:5%;
+   margin-right:5%;
+   flex-wrap: wrap;
+    font-size: 12px;
+}
+.card-1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    width:300px;
+    height: 500px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    background-color: gray;
+}
+.card-1 img{
+    width:100%;
+    height: 250px;
+}
+.card-title1{
+    text-align: center;
+}
+.container-card{
+    margin-bottom:50px;
+}
+
+.section-four {
+
+    margin-top: 100vh;
+
+}
+
+.what-we-do {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: -90vh;
+
+}
+.explain {
+    text-align: center;
+    text-transform:capitalize;
+   
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -7vh;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.links {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+.links1 li  {
+    
+    list-style: none;
+}
+
+.links2 li {
+    list-style: none;
+    text-decoration: none;
+    
+} 
+.links2 li a {
+    list-style: none;
+    text-decoration: none;
+    
+} 
+.links1 li a {
+    list-style: none;
+    text-decoration: none;
+    
+} 
+.last-button {
+    margin-top: 20vh;
+    text-align: center;
+
+}
+
+.last-button1 {
+    transform: translateY(-40px);
+    font-size: 20px;
+}
